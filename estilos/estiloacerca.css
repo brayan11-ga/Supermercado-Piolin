@@ -65,12 +65,22 @@ section{
 .links{
     position: absolute;
     width: 50px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: white;
     padding: 20px;
     align-items: center;
-    right: 400px;
-    bottom: 245px;
+    right: 300px;
+    bottom: 150px;
+}
+
+.links i{
+    position: relative;
+    color: red;
+    font-size: 50px;
+}
+
+.links i:hover{
+    color: black;
 }
